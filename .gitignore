@@ -26,10 +26,12 @@ hs_err_pid*
 .classpath
 .project
 .settings/
+.tern-project
 
 # Maven
 log/
 */target/*
+bin/
 
 /target/
 !.mvn/wrapper/maven-wrapper.jar

@@ -10,7 +10,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class SpringProjectApplicationTests {
 
 	@Test
-	public void contextLoads() {
+	public void contextLoads() throws Exception {
+		
 	}
 
 }

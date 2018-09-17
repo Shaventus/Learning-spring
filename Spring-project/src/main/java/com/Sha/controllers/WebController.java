@@ -5,13 +5,13 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.Sha.service.api.UserService;
+import com.Sha.service.api.IUserService;
 
 @Controller
 public class WebController {
 	
 	@Autowired
-	private UserService userService;
+	private IUserService userService;
 	
 	@RequestMapping("/login")
 	public String login() {

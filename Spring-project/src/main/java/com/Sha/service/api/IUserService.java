@@ -5,7 +5,7 @@ import java.util.List;
 import com.Sha.model.User;
 import com.Sha.model.dto.UserDto;
 
-public interface UserService {
+public interface IUserService {
 	
 	User createUser(UserDto userDto);
 	

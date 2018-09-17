@@ -8,10 +8,10 @@ import org.springframework.stereotype.Service;
 import com.Sha.model.User;
 import com.Sha.model.dto.UserDto;
 import com.Sha.repository.UserRepository;
-import com.Sha.service.api.UserService;
+import com.Sha.service.api.IUserService;
 
 @Service
-public class UserServiceImpl implements UserService {
+public class UserService implements IUserService {
 	
 	@Autowired
 	private UserRepository userRepository;

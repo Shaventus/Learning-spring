@@ -10,10 +10,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class UserServiceImplTest {
+public class UserServiceTest {
 
 	@Autowired
-	private UserServiceImpl userService;
+	private UserService userService;
 	
 	@Test
 	public void contextLoads() throws Exception {

@@ -16,5 +16,7 @@ public interface IUserService {
 	List<User> findAll();
 	
 	User update(User user);
+	
+	User faindbyLoginAndPassword(String login, String password);
 
 }

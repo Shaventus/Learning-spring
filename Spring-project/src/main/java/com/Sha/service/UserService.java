@@ -10,7 +10,7 @@ import com.Sha.model.dto.UserDto;
 import com.Sha.repository.UserRepository;
 import com.Sha.service.api.IUserService;
 
-@Service
+@Service("userService")
 public class UserService implements IUserService {
 	
 	@Autowired
@@ -47,6 +47,12 @@ public class UserService implements IUserService {
 	@Override
 	public List<User> findAll() {
 		return userRepository.findAll();
+	}
+
+	@Override
+	public User faindbyLoginAndPassword(String login, String password) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

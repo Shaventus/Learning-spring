@@ -10,6 +10,10 @@
 </head>
 <body>
 
+    <form action="logout" method="post">
+        <input type="submit" value="Sign Out"/>
+    </form>
+
 <h1>User list</h1>
 
       <table border = "1" width = "100%">
